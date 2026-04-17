@@ -58,3 +58,4 @@ class FoodCreateToStats(BaseModel):
     Модель, которую Bot отправляет в Statistics Service для добавления питания.
     """
     raw_text: str = Field(..., description="Полный текст питания от пользователя (через запятую)")
+
